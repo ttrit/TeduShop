@@ -96,8 +96,8 @@
     <Compile Include="Models\PostTag.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\ProductCategory.cs" />
-    <Compile Include="Models\ProductTags.cs" />
-    <Compile Include="Models\Slides.cs" />
+    <Compile Include="Models\ProductTag.cs" />
+    <Compile Include="Models\Slide.cs" />
     <Compile Include="Models\SupportOnline.cs" />
     <Compile Include="Models\SystemConfig.cs" />
     <Compile Include="Models\Tag.cs" />
@@ -108,7 +108,12 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\TeduShop.Common\TeduShop.Common.csproj">
+      <Project>{7f002fe3-1639-4dc0-92d2-64dc3552aba6}</Project>
+      <Name>TeduShop.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
