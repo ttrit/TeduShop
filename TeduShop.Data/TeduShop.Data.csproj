@@ -64,8 +64,13 @@
     <Compile Include="Migrations\201703211631552_fix_bug.Designer.cs">
       <DependentUpon>201703211631552_fix_bug.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703221417031_AddErrorTable.cs" />
+    <Compile Include="Migrations\201703221417031_AddErrorTable.Designer.cs">
+      <DependentUpon>201703221417031_AddErrorTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ErrorRepository.cs" />
     <Compile Include="Repositories\FooterRepository.cs" />
     <Compile Include="Repositories\MenuGroupRepository.cs" />
     <Compile Include="Repositories\MenuRepository.cs" />
@@ -95,6 +100,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703211631552_fix_bug.resx">
       <DependentUpon>201703211631552_fix_bug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703221417031_AddErrorTable.resx">
+      <DependentUpon>201703221417031_AddErrorTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
